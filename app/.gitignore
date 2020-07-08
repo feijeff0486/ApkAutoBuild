@@ -1,1 +1,8 @@
-/build
+#/build
+#-f /build/outputs/apk/release
+/build/generated
+/build/intermediates
+/build/outputs/apk/debug
+/build/outputs/logs
+/build/reports
+/build/tmp
