@@ -41,14 +41,14 @@ android {
         }
     }
 
-//    //打包apk名配置
-//    applicationVariants.all {
-//        variant ->
-//            variant.outputs.all {
-//                outputFileName = "ApkAutoBuild_${defaultConfig.versionName}_${defaultConfig.versionCode}_${releaseTime()}" +
-//                        "_target${defaultConfig.targetSdkVersion.apiLevel}_${variant.buildType.name}.apk"
-//            }
-//    }
+    //打包apk名配置
+    applicationVariants.all {
+        variant ->
+            variant.outputs.all {
+                outputFileName = "ApkAutoBuild_${defaultConfig.versionName}_${defaultConfig.versionCode}_${releaseTime()}" +
+                        "_target${defaultConfig.targetSdkVersion.apiLevel}_${variant.buildType.name}.apk"
+            }
+    }
 }
 
 dependencies {
